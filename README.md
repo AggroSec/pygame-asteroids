@@ -14,19 +14,22 @@ You control a spaceship, shoot asteroids to break them into smaller pieces, avoi
 - Modular structure for easy extension
 
 ## Project Structure
+
+```text
 pygame-asteroids/
-├─ main.py
-├─ player.py
-├─ asteroid.py
-├─ asteroidfield.py
-├─ shot.py
-├─ circleshape.py
-├─ constants.py
-├─ logger.py
-├─ pyproject.toml
-├─ uv.lock
-├─ .gitignore
-└─ .python-version
+├── main.py               # Game entry point & main loop
+├── player.py             # Player ship logic & controls
+├── asteroid.py            # Asteroid class & behavior
+├── asteroidfield.py       # Manages spawning and updating asteroids
+├── shot.py               # Player projectiles
+├── circleshape.py        # Abstract base class for circular objects
+├── constants.py          # Screen size, colors, speeds, etc.
+├── logger.py             # Simple logging helper
+├── pyproject.toml        # Project metadata & dependencies (uv)
+├── uv.lock               # Dependency lock file
+├── .gitignore
+└── .python-version
+```
 
 
 ## Requirements
@@ -86,6 +89,7 @@ Basic vector math (movement, rotation, wrapping)
 Collision detection algorithms
 
 Feel free to fork it, modify it, add features (UFOs, high scores, sound effects, etc.), or use it as reference for your own Pygame projects!
+
 
 
 

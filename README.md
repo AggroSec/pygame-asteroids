@@ -1,4 +1,4 @@
-Pygame Asteroids
+# Pygame Asteroids
 
 A classic arcade-style **Asteroids** game built with Python and [Pygame](https://www.pygame.org/), created as part of the [Boot.dev](https://www.boot.dev/) curriculum to practice **object-oriented programming** concepts.
 
@@ -86,3 +86,4 @@ Basic vector math (movement, rotation, wrapping)
 Collision detection algorithms
 
 Feel free to fork it, modify it, add features (UFOs, high scores, sound effects, etc.), or use it as reference for your own Pygame projects!
+
